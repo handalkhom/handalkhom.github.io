@@ -13,16 +13,21 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+    <!-- FontAwesome Icon -->
+    <script src="https://kit.fontawesome.com/0cda3bf180.js" crossorigin="anonymous"></script>
+
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>My Portfolio - Handal Khomsyat</title>
 </head>
 
 <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color:black;">
         <div class="container">
             <a class="navbar-brand" href="#">Handal Khomsyat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -33,7 +38,8 @@
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#projects">Project</a>
+                    <a class="nav-link" href="#study">Education</a>
+                    <a class="nav-link" href="#projects">Skill</a>
                     <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
@@ -43,9 +49,17 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="aset/Screenshot (15).png" alt="Handal Khomsyat" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Handal Khomsyat</h1>
-        <p class="lead">College Student | Newbie Designer</p>
+        <img src="aset/pp.jpg" alt="Handal Khomsyat" width="200" class="rounded-circle img-thumbnail"
+            data-aos="fade-down" data-aos-duration="1000">
+        <h1 class="display-4 fw-bold" style="color: black;" data-aos="zoom-in" data-aos-duration="1000"
+            data-aos-delay="200">Handal Khomsyat
+        </h1>
+        <p class="lead" style="color: black;" data-aos="zoom-in" data-aos-duration="1000">College Student | Graphic
+            Designer Wannabe</p>
+        <a href="https://www.instagram.com/handalkhom"><i class="fab fa-instagram fa-3x" data-aos="zoom-in"
+                data-aos-duration="500" data-aos-delay="400"></i></a>
+        <a href="https://github.com/handalkhom"><i class="fab fa-github fa-3x" data-aos="zoom-in"
+                data-aos-duration="600" data-aos-delay="400"></i></a>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#fff" fill-opacity="1"
                 d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,112C672,64,768,32,864,48C960,64,1056,128,1152,138.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -58,73 +72,88 @@
     <section id="about">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>About Me</Menu>
+                <div class="col" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>About Me
                     </h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam itaque harum libero nostrum
-                        dicta voluptatem cupiditate? Quos accusamus vitae magni.</p>
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                    <p>18 year old student majoring in informatics engineering at Sunan Gunung Djati State Islamic
+                        University, Bandung
+                    </p>
                 </div>
-                <div class="col-4">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dolores dolorum distinctio
-                        voluptatem aperiam debitis officia, architecto molestias itaque autem delectus optio quis
-                        necessitatibus animi.</p>
+                <div class="col-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                    <p>A hardworking, patient and ambitious person who dedicates all his efforts to achieve the goals
+                        that have been set in his heart.
+                    </p>
                 </div>
             </div>
         </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#e2edff" fill-opacity="1"
-                d="M0,224L48,192C96,160,192,96,288,106.7C384,117,480,203,576,218.7C672,235,768,181,864,144C960,107,1056,85,1152,80C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            <path fill="#e9e9e9" fill-opacity="1"
+                d="M0,320L30,304C60,288,120,256,180,234.7C240,213,300,203,360,218.7C420,235,480,277,540,272C600,267,660,213,720,197.3C780,181,840,203,900,213.3C960,224,1020,224,1080,202.7C1140,181,1200,139,1260,128C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
             </path>
         </svg>
     </section>
     <!-- Akhir About -->
 
+    <!-- Study -->
+    <section id="study">
+        <div class="container text-center">
+            <div class="row text-center mb-3" data-aos="fade-down" data-aos-duration="1000">
+                <div class="col">
+                    <h2>Where I Studied</h2>
+                </div>
+            </div>
+            <div class="row">
+                <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">SDN Kondangjaya 2</h5>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">2009-2015</p>
+            </div>
+            <div class="row">
+                <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">MTs Mathla'ul Anwar Pusat</h5>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">2015 - 2018</p>
+            </div>
+            <div class="row">
+                <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">MAN 2 Kota Serang</h5>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">2018 - 2021</p>
+            </div>
+            <div class="row">
+                <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">UIN Sunan Gunung Djati</h5>
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">2021 - Now</p>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Study -->
+
     <!-- Projects -->
     <section id="projects">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Projects</h2>
+                <div class="col" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>What I Can</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="aset/1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <p><i class="fab fa-html5 fa-9x"></i></p>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="aset/2.jpg" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
+                <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <p><i class="fab fa-css3-alt fa-9x"></i></p>
                 </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="aset/3.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
+                <div class="col-md-3 mb-3 mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <img src="https://img.icons8.com/metro/104/000/adobe-photoshop.png" />
                 </div>
+                <div class="col-md-3 mb-3 mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <img src="https://img.icons8.com/metro/104/000/adobe-illustrator.png" />
+                </div>
+
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,256L30,224C60,192,120,128,180,101.3C240,75,300,85,360,101.3C420,117,480,139,540,170.7C600,203,660,245,720,256C780,267,840,245,900,202.7C960,160,1020,96,1080,106.7C1140,117,1200,203,1260,213.3C1320,224,1380,160,1410,128L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,128L30,128C60,128,120,128,180,138.7C240,149,300,171,360,165.3C420,160,480,128,540,144C600,160,660,224,720,261.3C780,299,840,309,900,261.3C960,213,1020,107,1080,69.3C1140,32,1200,64,1260,85.3C1320,107,1380,117,1410,122.7L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
             </path>
         </svg>
     </section>
@@ -132,45 +161,55 @@
 
     <!-- Contact -->
     <section id="contact">
-        <div class="container">
+        <div class="container text-black">
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>Contact Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-6"></div>
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nama Lengkap</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="name">
+                <div class="col-md-6">
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="pesan" class="form-label">Pesan</label>
-                        <textarea class="form-control" id="pesan" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Kirim</button>
-                </form>
+                    <form name="handal-contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-light btn-kirim">Kirim</button>
+                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0d6efd" fill-opacity="1"
-                d="M0,256L30,218.7C60,181,120,107,180,85.3C240,64,300,96,360,128C420,160,480,192,540,197.3C600,203,660,181,720,192C780,203,840,245,900,245.3C960,245,1020,203,1080,186.7C1140,171,1200,181,1260,176C1320,171,1380,149,1410,138.7L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            <path fill="#000" fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
             </path>
         </svg>
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-3">
+    <footer class="text-white text-center pb-3" style="background-color: black;">
         <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/handalkhom/"
                 class="text-white fw-bold">Handal
                 Khomsyat</a>
         </p>
+        <a href="https://icons8.com/icon/">icon by Icons8</a>
     </footer>
     <!-- Akhir Footer -->
 
@@ -178,6 +217,40 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz9d6FSZK3GtqzRL8GrMOoR17b8LN2HIARzh1RNpBJiV3NjSBwDx33lv1pmhdy0aNOzjQ/exec'
+        const form = document.forms['handal-contact-form']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            //ketika tombool submit diklik
+            //tampilkan tombol loading, hilangkan tombol kirim
+            btnLoading.classList.toggle("d-none")
+            btnKirim.classList.toggle("d-none")
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    //tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle("d-none")
+                    btnKirim.classList.toggle("d-none")
+                    //tampilkan alert
+                    myAlert.classList.toggle("d-none")
+                    //reset form
+                    form.reset()
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 
 </html>

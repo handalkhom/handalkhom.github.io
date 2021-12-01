@@ -1,13 +1,26 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #e9e9e9;
 }
 
+#study {
+  padding-top: 6rem;
+  background-color: #e9e9e9;
+}
 #projects {
-  padding-top: 2rem;
-  background-color: #e2edff;
+  padding-top: 15rem;
+  background-color: #e9e9e9;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.container,
+.fab {
+  color: black;
+}
+
+.btn {
+  background-color: black;
 }
